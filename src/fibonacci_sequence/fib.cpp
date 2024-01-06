@@ -3,6 +3,7 @@
 uint fib(const uint n) {
     uint *data = new uint[n + 1];
     if (n == 0 || n == 1) {
+        delete[]data;
         return n;
     }
 
