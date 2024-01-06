@@ -2,7 +2,7 @@ add_executable(${PROJECT_NAME} main.cpp)
 
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
 
-FILE(GLOB ProblemSource fibonacci_sequence/*.cpp)
+FILE(GLOB ProblemSource */*.cpp)
 add_library(bootup_functions STATIC ${ProblemSource})
 
 target_link_libraries(${PROJECT_NAME} bootup_functions)
