@@ -1,3 +1,3 @@
 #include <iostream>
 
-int fib(uint n);
+uint fib(const uint n);

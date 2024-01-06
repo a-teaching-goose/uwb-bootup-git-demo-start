@@ -2,6 +2,6 @@
 #include "power_of_2/power_of_2.h"
 #include "util.h"
 
-TEST(power_of_2, edge_cases) {
+TEST(power_of_2, test) {
     ASSERT_TRUE(false); // TODO: replace this with real test code
 }
