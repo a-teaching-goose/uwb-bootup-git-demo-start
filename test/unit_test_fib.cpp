@@ -3,4 +3,5 @@
 #include "util.h"
 
 TEST(fib, test) {
+    ASSERT_TRUE(false);
 }
